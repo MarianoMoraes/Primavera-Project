@@ -24,7 +24,7 @@
   /* colors utilities */
 
   --highlight: rgb(246, 246, 198);
-  --buttons: rgb(207, 92, 197);
+  --buttons: #993b58;
 
   /*tipografia*/
 
@@ -36,11 +36,55 @@
 
 /* ************************* classes ****************************** */
 
+.background-primary{
+  background: linear-gradient(to bottom,
+  #efe3de 50%,
+  #c18577
+  );
+}
+
+.background-offcanvas-primary{
+  background: linear-gradient(to bottom,
+  #efe3de 50%,
+  #ebcec8
+  );
+}
+
+
 /* font family */
 
 .font-family-primary{
     font-family: var(--poppinsFont);
 }
 
-/* class colors */
+
+/* card colors */
+
+.card-clr-primary{
+  background: var(--gastroThird);
+}
+
+
+/* button style */
+
+.btn-clr-primary{
+  background: var(--buttons);
+}
+
+.btn:hover{
+  background: #590829;
+}
+
+
+/* p style */
+
+
+
+/* off canvas style */
+
+.active-offcanvas{
+  background: var(--buttons);
+}
+
+
 
