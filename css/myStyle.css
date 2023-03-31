@@ -45,8 +45,8 @@
 
 .background-offcanvas-primary{
   background: linear-gradient(to bottom,
-  #efe3de 50%,
-  #ebcec8
+  #eeded8 50%,
+  #ffe4de
   );
 }
 
@@ -76,15 +76,15 @@
 }
 
 
-/* p style */
 
+/* off canvas style link */
 
-
-/* off canvas style */
-
-.active-offcanvas{
-  background: var(--buttons);
+.active-link-offcanvas{
+  background: #ec749a;
 }
 
 
+.social-media-icons{
+  cursor: pointer;
+}
 
