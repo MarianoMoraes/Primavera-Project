@@ -1,0 +1,34 @@
+@charset "utf-8";
+
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto+Slab:wght@100;200;300;400;500;600;700;800;900&display=swap");
+
+:root {
+  /* colors */
+
+  /*colors fit*/
+
+  --natureFirst: #023a40;
+  --natureSecond: #5d878c;
+  --natureThird: #d9d0c1;
+  --natureFourth: #734327;
+  --natureFifth: #bf7449;
+
+  /* colors gastro */
+
+  --gastroFirst: #241e26;
+  --gastroSecond: #5e6d8c;
+  --gastroThird: #d9c8a9;
+  --gastroFourth: #bf9b8e;
+  --gastroFifth: #8c5c51;
+
+  /* colors utilities */
+
+  --highlight: rgb(246, 246, 198);
+  --buttons: #993b58;
+
+  /*tipografia*/
+
+  --poppinsFont: "Poppins", sans-serif;
+  --robotoslabFont: "Roboto Slab", serif;
+  --opensansFont: "Open Sans", sans-serif;
+}

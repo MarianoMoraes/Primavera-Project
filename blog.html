@@ -24,7 +24,8 @@
 
     <!-- bootstrap css -->
     <link rel="stylesheet" href="css/bootstrap.min.css" />
-    <link rel="stylesheet" href="css/myStyleBlog.css" />
+    <link rel="stylesheet" href="css/root.css">
+    <link rel="stylesheet" href="css/myStyle.css" />
   </head>
 
   <body class="font-family-primary">
@@ -38,15 +39,18 @@
 
       <!-- end blog header -->
 
-    
-  <!-- start of offcanvas nav -->
+      <!-- start of offcanvas nav -->
       <div class="row">
         <nav
-          class="navbar bg-body-tertiary fixed-top background-offcanvas-primary">
+          class="navbar bg-body-tertiary fixed-top background-offcanvas-primary"
+        >
           <div class="container-fluid">
             <!-- logo picture -->
             <a class="navbar-brand" href="#">
-              <img src="./img/logo/logoconsombra.png" alt="Food and Fit - Home" />
+              <img
+                src="./img/logo/logoconsombra.png"
+                alt="Food and Fit - Home"
+              />
             </a>
             <button
               class="navbar-toggler"
@@ -111,8 +115,14 @@
                       Fit
                     </a>
                     <ul class="dropdown-menu">
-                      <li><a class="dropdown-item" href="./paseos.html">Paseos</a></li>
-                      <li><a class="dropdown-item" href="./deportes.html">Deporte</a></li>
+                      <li>
+                        <a class="dropdown-item" href="./paseos.html">Paseos</a>
+                      </li>
+                      <li>
+                        <a class="dropdown-item" href="./deportes.html"
+                          >Deporte</a
+                        >
+                      </li>
                     </ul>
                   </li>
                 </ul>
@@ -121,60 +131,116 @@
           </div>
         </nav>
       </div>
-<!-- end of Nav -->
-      
-<!-- start of carrousel blog -->
+      <!-- end of Nav -->
+
+      <!-- start of carrousel blog -->
       <main class="row justify-content-center my-5">
-
         <div id="carouselExampleCaptions" class="carousel slide">
-            <div class="carousel-indicators">
-              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
-              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
-            </div>
-            <div class="carousel-inner">
-              <div class="carousel-item active">
-                <img src="./img/blog/hinojosagisbert.jpg" class="d-block w-100" alt="hinojosa-gisbert">
-                <div class="carousel-caption d-none d-md-block">
-                  <h5 class="text bg-dark">Familia Hinojosa-Gisbert</h5>
-                  <p class="text bg-dark">Vivimos una experiencia emocionante y divertida al remar en el agua en un hermoso día soleado. Disfrutamos de la oportunidad de hacer ejercicio al mismo tiempo que del paisaje, mientras que nuestros hijos se emocionaron con la idea de explorar nuevos lugares y disfrutar del aire libre. Como familia nos unimos en la tarea de remar y maniobrar el kayak, lo que fomentó la colaboración y el trabajo en equipo creando recuerdos que durarán para siempre. 
-                    </p>
-                </div>
-              </div>
-              <div class="carousel-item">
-                <img src="./img/blog/julia&josep.jpg" class="d-block w-100" alt="julia-josep">
-                <div class="carousel-caption d-none d-md-block">
-                  <h5 class="text bg-dark">Julia i Josep</h5>
-                  <p class="text bg-dark">La experiencia fué romántica y agradable en nuestra segunda visita a una cata de vinos. A medida que exploramos diferentes variedades de vinos, aprendimos  sobre la historia detrás de cada uno, la técnica de elaboración y las características únicas de cada variedad. Con cada sorbo, pudimos identificar los diferentes matices de sabor y aroma, y poner en común nuestras  preferencias y opiniones.</p>
-                </div>
-              </div>
-              <div class="carousel-item">
-                <img src="./img/blog/amigos.jpg" class="d-block w-100" alt="...">
-                <div class="carousel-caption d-none d-md-block">
-                  <h5 class="text bg-dark">Reunión de amigos</h5>
-                  <p class="text bg-dark">Mientras caminamos por los senderos rodeados de impresionantes paisajes naturales, nos sumergimos en la tranquilidad y la belleza del campo. Durante el paseo, descubrimos pequeñas aldeas, encontramos animales curiosos y aprendimos sobre la historia y la cultura locales. A lo largo del camino, compartimos historias, risas y momentos especiales, lo que fortaleció nuestra amistad y creó recuerdos duraderos.</p>
-                </div>
-              </div>
-            </div>
-            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
-              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-              <span class="visually-hidden">Previous</span>
-            </button>
-            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
-              <span class="carousel-control-next-icon" aria-hidden="true"></span>
-              <span class="visually-hidden">Next</span>
-            </button>
+          <div class="carousel-indicators">
+            <button
+              type="button"
+              data-bs-target="#carouselExampleCaptions"
+              data-bs-slide-to="0"
+              class="active"
+              aria-current="true"
+              aria-label="Slide 1"
+            ></button>
+            <button
+              type="button"
+              data-bs-target="#carouselExampleCaptions"
+              data-bs-slide-to="1"
+              aria-label="Slide 2"
+            ></button>
+            <button
+              type="button"
+              data-bs-target="#carouselExampleCaptions"
+              data-bs-slide-to="2"
+              aria-label="Slide 3"
+            ></button>
           </div>
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img
+                src="./img/blog/hinojosagisbert.jpg"
+                class="d-block w-100"
+                alt="hinojosa-gisbert"
+              />
+              <div class="carousel-caption d-none d-md-block">
+                <h5 class="text bg-dark">Familia Hinojosa-Gisbert</h5>
+                <p class="text bg-dark">
+                  Vivimos una experiencia emocionante y divertida al remar en el
+                  agua en un hermoso día soleado. Disfrutamos de la oportunidad
+                  de hacer ejercicio al mismo tiempo que del paisaje, mientras
+                  que nuestros hijos se emocionaron con la idea de explorar
+                  nuevos lugares y disfrutar del aire libre. Como familia nos
+                  unimos en la tarea de remar y maniobrar el kayak, lo que
+                  fomentó la colaboración y el trabajo en equipo creando
+                  recuerdos que durarán para siempre.
+                </p>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img
+                src="./img/blog/julia&josep.jpg"
+                class="d-block w-100"
+                alt="julia-josep"
+              />
+              <div class="carousel-caption d-none d-md-block">
+                <h5 class="text bg-dark">Julia i Josep</h5>
+                <p class="text bg-dark">
+                  La experiencia fué romántica y agradable en nuestra segunda
+                  visita a una cata de vinos. A medida que exploramos diferentes
+                  variedades de vinos, aprendimos sobre la historia detrás de
+                  cada uno, la técnica de elaboración y las características
+                  únicas de cada variedad. Con cada sorbo, pudimos identificar
+                  los diferentes matices de sabor y aroma, y poner en común
+                  nuestras preferencias y opiniones.
+                </p>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img
+                src="./img/blog/amigos.jpg"
+                class="d-block w-100"
+                alt="..."
+              />
+              <div class="carousel-caption d-none d-md-block">
+                <h5 class="text bg-dark">Reunión de amigos</h5>
+                <p class="text bg-dark">
+                  Mientras caminamos por los senderos rodeados de impresionantes
+                  paisajes naturales, nos sumergimos en la tranquilidad y la
+                  belleza del campo. Durante el paseo, descubrimos pequeñas
+                  aldeas, encontramos animales curiosos y aprendimos sobre la
+                  historia y la cultura locales. A lo largo del camino,
+                  compartimos historias, risas y momentos especiales, lo que
+                  fortaleció nuestra amistad y creó recuerdos duraderos.
+                </p>
+              </div>
+            </div>
+          </div>
+          <button
+            class="carousel-control-prev"
+            type="button"
+            data-bs-target="#carouselExampleCaptions"
+            data-bs-slide="prev"
+          >
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button
+            class="carousel-control-next"
+            type="button"
+            data-bs-target="#carouselExampleCaptions"
+            data-bs-slide="next"
+          >
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
 
-
-
-
-
-
-       <!-- dsaasddasasdASDAda -->
+        <!-- dsaasddasasdASDAda -->
       </main>
- <!-- end of carrousel blog -->   
-      
+      <!-- end of carrousel blog -->
 
       <!-- end of main (cards) -->
 
@@ -194,7 +260,9 @@
             <a class="text-decoration-none text-black" href="#">About</a>
           </li>
           <li class="">
-            <a class="text-decoration-none text-black" href="./blog.html">Blog</a>
+            <a class="text-decoration-none text-black" href="./blog.html"
+              >Blog</a
+            >
           </li>
           <li class="">
             <a class="text-decoration-none text-black" href="#">Contact</a>
