@@ -33,14 +33,14 @@
   --opensansFont: "Open Sans", sans-serif;
 }
 
-/* ************************* classes ****************************** */
+/* ************************* classes****************************** */
 
 .background-primary {
-  background: linear-gradient(to bottom, #efe3de 50%, #c18577);
+  background: linear-gradient(to bottom, #d9e1d3 50%, #869e87);
 }
 
 .background-offcanvas-primary {
-  background: linear-gradient(to bottom, #efe3de 50%, #ebcec8);
+  background: linear-gradient(to bottom, #d9e1d3 50%, #adc9af);
 }
 
 /* font family */
@@ -52,17 +52,17 @@
 /* card colors */
 
 .card-clr-primary {
-  background: var(--gastroThird);
+  background: var(--natureThird);
 }
 
 /* button style */
 
 .btn-clr-primary {
-  background: var(--buttons);
+  background: var(--natureFirst);
 }
 
 .btn:hover {
-  background: #590829;
+  background: #022226;
 }
 
 /* p style */
@@ -71,4 +71,8 @@
 
 .active-offcanvas {
   background: var(--buttons);
+}
+
+.social-media-icons {
+  cursor: pointer;
 }
