@@ -57,3 +57,16 @@
 .social-media-icons {
   cursor: pointer;
 }
+
+
+.bg-index-primary{
+  background: var(--index-clr-primary);
+}
+
+.bg-index-secondary{
+  background: var(--index-clr-secondary);
+}
+
+.bg-index-tertiary{
+  background: var( --index-clr-tertiary);
+}
