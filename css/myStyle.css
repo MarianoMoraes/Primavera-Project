@@ -48,6 +48,10 @@
 
 /* p style */
 
+.description {
+  width: clamp(50ch, 3vw, 80ch);
+}
+
 /* off canvas style */
 
 .active-offcanvas {
