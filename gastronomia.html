@@ -1,226 +1,344 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="author" content="andrea-jordi-mariano">
-    <meta name="description" content="Una ruta gastronómica es una experiencia única que permite a los participantes explorar diferentes sabores, aromas y platos tradicionales de una región determinada">
-    <meta name="keyword" content="ruta gastronomica, explorar sabores regionales, aroma y platos tradicionales">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="author" content="andrea-jordi-mariano" />
+    <meta
+      name="description"
+      content="Una ruta gastronómica es una experiencia única que permite a los participantes explorar diferentes sabores, aromas y platos tradicionales de una región determinada"
+    />
+    <meta
+      name="keyword"
+      content="ruta gastronomica, explorar sabores regionales, aroma y platos tradicionales"
+    />
     <!-- favicon -->
-    <link rel="icon" type="image/png" href="img/favicon/faviconyellow-32x32.png" >
+    <link
+      rel="icon"
+      type="image/png"
+      href="img/favicon/faviconyellow-32x32.png"
+    />
     <title>Ruta Gastronómica Experience</title>
 
     <!-- bootstrap icon-->
 
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css"
+    />
 
     <!-- bootstrap css -->
-    <link rel="stylesheet" href="css/bootstrap.min.css">
-    <link rel="stylesheet" href="css/root.css">
-    <link rel="stylesheet" href="css/myStyle.css">
-</head>
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/root.css" />
+    <link rel="stylesheet" href="css/myStyle.css" />
+  </head>
 
-<body class="font-family-primary">
- 
-
-<!-- start of main container -->
+  <body class="font-family-primary">
+    <!-- start of main container -->
     <div class="container-fluid background-primary">
+      <!-- start header hero -->
 
-    <!-- start header hero -->
-        
-    <header class="row  mt-5 justify-content-center">
+      <header class="row mt-5 justify-content-center">
         <h1 class="mt-5 text-center">Ruta Gastronómica Experience</h1>
 
         <div class="col-10">
-            <img class="img-fluid rounded-3" src="img/food/gastronomia/bannerrutagrastronomica.webp" alt="imagen restaurant">
+          <img
+            class="img-fluid rounded-3"
+            src="img/food/gastronomia/bannerrutagrastronomica.webp"
+            alt="imagen restaurant"
+          />
         </div>
-    </header>
-       
-     <!-- end header hero -->
+      </header>
 
-       <!-- start of offcanvas nav -->
+      <!-- end header hero -->
 
-        <div class="row ">
-            <nav class="navbar bg-body-tertiary fixed-top background-offcanvas-primary">
-                <div class="container-fluid">
-                    <!-- logo picture -->
-                <a class="navbar-brand" href="#">
-                    <img src="./" alt="Food and Fit - Home">
-                </a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
-                    <div class="offcanvas-header">
-                    <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
-                    </div>
-                    <div class="offcanvas-body background-offcanvas-primary">
+      <!-- start of offcanvas nav -->
 
-                    <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
-
-                            <li class="nav-item dropdown">
-                                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                                    Food
-                                </a>
-                                <ul class="dropdown-menu">
-                                    <li><a class="dropdown-item active-offcanvas text-white" href="./cata-vino.html">Cata de Vino</a></li>
-                                    <li><a class="dropdown-item" href="#">Ruta gasgtronomicas</a></li>
-                                </ul>
-                            </li>
-
-                            <li class="nav-item dropdown">
-                                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                                    Fit
-                                </a>
-                                <ul class="dropdown-menu">
-                                    <li><a class="dropdown-item" href="./paseos.html">Paseos</a></li>
-                                    <li><a class="dropdown-item" href="./deportes.html">Deporte</a></li>
-                                </ul>
-                            </li>
+      <div class="row">
+        <nav
+          class="navbar bg-body-tertiary fixed-top background-offcanvas-primary"
+        >
+          <div class="container-fluid">
+            <!-- logo picture -->
+            <a class="navbar-brand" href="#">
+              <img src="./" alt="Food and Fit - Home" />
+            </a>
+            <button
+              class="navbar-toggler"
+              type="button"
+              data-bs-toggle="offcanvas"
+              data-bs-target="#offcanvasNavbar"
+              aria-controls="offcanvasNavbar"
+              aria-label="Toggle navigation"
+            >
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div
+              class="offcanvas offcanvas-end"
+              tabindex="-1"
+              id="offcanvasNavbar"
+              aria-labelledby="offcanvasNavbarLabel"
+            >
+              <div class="offcanvas-header">
+                <button
+                  type="button"
+                  class="btn-close"
+                  data-bs-dismiss="offcanvas"
+                  aria-label="Close"
+                ></button>
+              </div>
+              <div class="offcanvas-body background-offcanvas-primary">
+                <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                  <li class="nav-item dropdown">
+                    <a
+                      class="nav-link dropdown-toggle"
+                      href="#"
+                      role="button"
+                      data-bs-toggle="dropdown"
+                      aria-expanded="false"
+                    >
+                      Food
+                    </a>
+                    <ul class="dropdown-menu">
+                      <li>
+                        <a
+                          class="dropdown-item active-offcanvas text-white"
+                          href="./cata-vino.html"
+                          >Cata de Vino</a
+                        >
+                      </li>
+                      <li>
+                        <a class="dropdown-item" href="#"
+                          >Ruta gasgtronomicas</a
+                        >
+                      </li>
                     </ul>
-                    </div>
-                </div>
-                </div>
-            </nav>
-        </div>
-            
-    <!-- end of Nav -->
+                  </li>
 
-    <section class="row justify-content-center my-5">
+                  <li class="nav-item dropdown">
+                    <a
+                      class="nav-link dropdown-toggle"
+                      href="#"
+                      role="button"
+                      data-bs-toggle="dropdown"
+                      aria-expanded="false"
+                    >
+                      Fit
+                    </a>
+                    <ul class="dropdown-menu">
+                      <li>
+                        <a class="dropdown-item" href="./paseos.html">Paseos</a>
+                      </li>
+                      <li>
+                        <a class="dropdown-item" href="./deportes.html"
+                          >Deporte</a
+                        >
+                      </li>
+                    </ul>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </nav>
+      </div>
 
+      <!-- end of Nav -->
+
+      <section class="row justify-content-center my-5">
         <article class="col-10">
+          <p class="">
+            Una <strong>ruta gastronómica</strong> es una experiencia única que
+            permite a los participantes explorar diferentes sabores, aromas y
+            platos tradicionales de una región determinada. La ruta gastronómica
+            suele incluir
+            <strong
+              >visitas a restaurantes, bares, mercados y otros lugares de
+              interés culinario</strong
+            >, donde los participantes pueden degustar una variedad de platillos
+            y bebidas locales
+          </p>
 
-            <p class="">Una <strong>ruta gastronómica</strong> es una experiencia única que permite a los participantes explorar diferentes sabores, aromas y platos tradicionales de una región determinada. La ruta gastronómica suele incluir <strong>visitas a restaurantes, bares, mercados y otros lugares de interés culinario</strong>, donde los participantes pueden degustar una variedad de platillos y bebidas locales</p>
+          <p class="">
+            Además de disfrutar de la comida, la ruta gastronómica ofrece la
+            oportunidad de aprender sobre la cultura y la historia detrás de los
+            platos tradicionales, así como sobre la producción de ingredientes
+            locales y la gastronomía en general. Al caminar por las calles y
+            visitar diferentes establecimientos, los participantes pueden
+            experimentar la vida local y sumergirse en la
+            <strong>cultura culinaria</strong> de la región.
+          </p>
 
-            <p class=""> Además de disfrutar de la comida, la ruta gastronómica ofrece la oportunidad de aprender sobre la cultura y la historia detrás de los platos tradicionales, así como sobre la producción de ingredientes locales y la gastronomía en general. Al caminar por las calles y visitar diferentes establecimientos, los participantes pueden experimentar la vida local y sumergirse en la <strong>cultura culinaria</strong> de la región.</p>
-
-            <p class=""> La ruta gastronómica es una actividad ideal para aquellos que buscan expandir sus horizontes culinarios y descubrir nuevos sabores, así como para aquellos que disfrutan de la historia, la cultura y la sociabilidad que rodea a la comida.</p>
-
+          <p class="">
+            La ruta gastronómica es una actividad ideal para aquellos que buscan
+            expandir sus horizontes culinarios y descubrir nuevos sabores, así
+            como para aquellos que disfrutan de la historia, la cultura y la
+            sociabilidad que rodea a la comida.
+          </p>
         </article>
+      </section>
 
-    </section>
-
-    
-    <main class="row justify-content-center">    
-
+      <main class="row justify-content-center">
         <!-- first card -->
         <section class="col-9 col-md-3 col-lg-3">
+          <div class="card shadow-lg card-clr-primary">
+            <img
+              src="img/food/gastronomia/tapas.webp"
+              class="card-img-top img-fluid"
+              alt="image card queso"
+            />
 
-            <div class="card shadow-lg card-clr-primary">
+            <div class="card-body text-center">
+              <h4 class="card-title text--primary">Tapas</h4>
 
-                <img src="img/food/gastronomia/tapas.webp" class="card-img-top img-fluid" alt="image card queso">
-        
-                <div class="card-body text-center">
+              <ul
+                class="list-group list-group-flush flex-column align-items-center"
+              >
+                <li class="list-group-item border-bottom w-75 card-clr-primary">
+                  Experiencia 1 dia
+                </li>
+                <li class="list-group-item border-bottom w-75 card-clr-primary">
+                  Buffet libre
+                </li>
+                <li class="list-group-item border-bottom w-75 card-clr-primary">
+                  Regalo de bienvenida
+                </li>
+              </ul>
 
-                    <h4 class="card-title  text--primary">Tapas</h4>
+              <p class="display-6 my-3">Eur 150</p>
 
-                    <ul class="list-group list-group-flush flex-column align-items-center">
+              <p class="card-text text--primary">
+                La mas demandada por nuestros clientes.
+              </p>
 
-                        <li class="list-group-item border-bottom w-75 card-clr-primary">Experiencia 1 dia</li>
-                        <li class="list-group-item border-bottom w-75 card-clr-primary">Buffet libre</li>
-                        <li class="list-group-item border-bottom w-75 card-clr-primary">Regalo de bienvenida</li>
-
-                    </ul>
-
-                    <p class="display-6 my-3">Eur 150</p>
-
-                    <p class="card-text  text--primary">La mas demandada por nuestros clientes.</p>
-
-                    <a href="#" class="btn btn-clr-primary my-4 btn mx-auto d-block text-white border-0">Reserva</a>
-
-                </div>  
+              <a
+                href="#"
+                class="btn btn-clr-primary my-4 btn mx-auto d-block text-white border-0"
+                >Reserva</a
+              >
             </div>
+          </div>
         </section>
 
         <!-- second card -->
-    
+
         <section class="col-9 col-md-3 col-lg-3">
+          <div class="card shadow-lg card-clr-primary">
+            <img
+              src="img/food/gastronomia/magesticrooftop.webp"
+              class="card-img-top img-fluid"
+              alt="image card viñedo"
+            />
 
-            <div class="card shadow-lg card-clr-primary">
+            <div class="card-body text-center">
+              <h4 class="card-title text--primary">Sala de Degustación</h4>
 
-                <img src="img/food/gastronomia/magesticrooftop.webp" class="card-img-top img-fluid" alt="image card viñedo">
-        
-                <div class="card-body text-center">
+              <ul
+                class="list-group list-group-flush flex-column align-items-center"
+              >
+                <li class="list-group-item border-bottom w-75 card-clr-primary">
+                  Experiencia 1 dia
+                </li>
+                <li class="list-group-item border-bottom w-75 card-clr-primary">
+                  Buffet libre
+                </li>
+                <li class="list-group-item border-bottom w-75 card-clr-primary">
+                  Regalo de bienvenida
+                </li>
+              </ul>
 
-                    <h4 class="card-title  text--primary">Sala de Degustación</h4>
+              <p class="display-6 my-3">Eur 250</p>
 
-                    <ul class="list-group list-group-flush flex-column align-items-center">
-                        <li class="list-group-item border-bottom w-75 card-clr-primary">Experiencia 1 dia</li>
-                        <li class="list-group-item border-bottom w-75 card-clr-primary">Buffet libre</li>
-                        <li class="list-group-item border-bottom w-75 card-clr-primary">Regalo de bienvenida</li>
-                    </ul>
+              <p class="card-text text--primary">Seguro que repetirás</p>
 
-                    <p class="display-6 my-3">Eur 250</p>
-
-                    <p class="card-text  text--primary">Seguro que repetirás</p>
-
-                    <a href="#" class="btn btn-primary my-4 btn mx-auto d-block btn-clr-primary text-white  border-0">Reserva</a>
-
-                </div>  
+              <a
+                href="#"
+                class="btn btn-primary my-4 btn mx-auto d-block btn-clr-primary text-white border-0"
+                >Reserva</a
+              >
             </div>
+          </div>
         </section>
 
         <!-- third card -->
         <section class="col-9 col-md-3 col-lg-3">
+          <div class="card shadow-lg card-clr-primary">
+            <img
+              src="img/food/gastronomia/restaurantes.webp"
+              class="card-img-top img-fluid"
+              alt="image card vino"
+            />
 
-            <div class="card shadow-lg card-clr-primary">
+            <div class="card-body text-center">
+              <h4 class="card-title text--primary">Restaurants</h4>
 
-                <img src="img/food/gastronomia/restaurantes.webp" class="card-img-top img-fluid" alt="image card vino">
-        
-                <div class="card-body text-center">
+              <ul
+                class="list-group list-group-flush flex-column align-items-center"
+              >
+                <li class="list-group-item border-bottom w-75 card-clr-primary">
+                  Experiencia 1 dia
+                </li>
+                <li class="list-group-item border-bottom w-75 card-clr-primary">
+                  Buffet libre
+                </li>
+                <li class="list-group-item border-bottom w-75 card-clr-primary">
+                  Regalo de bienvenida
+                </li>
+              </ul>
 
-                    <h4 class="card-title  text--primary">Restaurants</h4>
+              <p class="display-6 my-3">Eur 200</p>
 
-                    <ul class="list-group list-group-flush flex-column align-items-center">
-                        <li class="list-group-item border-bottom w-75 card-clr-primary">Experiencia 1 dia</li>
-                        <li class="list-group-item border-bottom w-75 card-clr-primary">Buffet libre</li>
-                        <li class="list-group-item border-bottom w-75 card-clr-primary">Regalo de bienvenida</li>
-                    </ul>
+              <p class="card-text text--primary">
+                Sin prisas. Relax durante la degustación.
+              </p>
 
-                    <p class="display-6 my-3">Eur 200</p>
-
-                    <p class="card-text  text--primary">Sin prisas. Relax durante la degustación.</p>
-
-                    <a href="#" class="btn btn-primary my-4 btn mx-auto d-block btn-clr-primary text-white border-0">Reserva</a>
-
-                </div>  
+              <a
+                href="#"
+                class="btn btn-primary my-4 btn mx-auto d-block btn-clr-primary text-white border-0"
+                >Reserva</a
+              >
             </div>
+          </div>
         </section>
-      
-    </main>
+      </main>
 
-    <!-- end of main (cards) -->
+      <!-- end of main (cards) -->
 
+      <!-- start of footer -->
 
-    <!-- start of footer -->
-
-    <footer class="row mt-5 justify-content-around shadow p-3">
-
+      <footer class="row mt-5 justify-content-around shadow p-3">
         <div class="col-3">
-            <i class=" bi bi-instagram"></i>
-            <i class=" bi bi-whatsapp"></i>
-            <i class=" bi bi-facebook"></i>
-            <i class=" bi bi-tiktok"></i>
-            <i class=" bi bi-twitter"></i>
+          <i class="bi bi-instagram"></i>
+          <i class="bi bi-whatsapp"></i>
+          <i class="bi bi-facebook"></i>
+          <i class="bi bi-tiktok"></i>
+          <i class="bi bi-twitter"></i>
         </div>
 
-
         <ul class="col-5 d-flex justify-content-between list-unstyled">
-            <li class=""><a class="text-decoration-none text-black" href="#">About</a></li>
-            <li class=""><a class="text-decoration-none text-black" href="./blog.html">Blog</a></li>
-            <li class=""><a class="text-decoration-none text-black" href="#">Contact</a></li>
+          <li class="">
+            <a class="text-decoration-none text-black" href="./index.html"
+              >About</a
+            >
+          </li>
+          <li class="">
+            <a class="text-decoration-none text-black" href="./blog.html"
+              >Blog</a
+            >
+          </li>
+          <li class="">
+            <a class="text-decoration-none text-black" href="./contact.html"
+              >Contact</a
+            >
+          </li>
         </ul>
+      </footer>
 
-    </footer>
-
-    <!-- end of footer -->
-
-
-</div>
-<!-- end of main container -->
-
+      <!-- end of footer -->
+    </div>
+    <!-- end of main container -->
 
     <script src="js/bootstrap.bundle.min.js"></script>
-</body>
+  </body>
 </html>
