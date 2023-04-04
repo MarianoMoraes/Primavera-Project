@@ -1,11 +1,11 @@
 @charset "utf-8";
-*,*::before,*::after{
+*,
+*::before,
+*::after {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
-
-
 
 /* ************************* classes ****************************** */
 
@@ -16,9 +16,6 @@
 .background-offcanvas-primary {
   background: linear-gradient(to bottom, #efe3de 50%, #ebcec8);
 }
-
-
-
 
 /* font family */
 
@@ -60,4 +57,13 @@
 
 .social-media-icons {
   cursor: pointer;
+}
+
+/* *****body margin ***** */
+.body-margin {
+  margin-top: 4rem;
+}
+
+.body-margin-index {
+  margin-top: 7rem;
 }
