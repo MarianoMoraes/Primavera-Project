@@ -57,13 +57,19 @@
         <h1 class="text-center">Ruta Gastronómica Experience</h1>
 
         <div class="col-10">
-          <img
+          <!-- <img
             class="img-fluid rounded-3"
-            src="img/food/gastronomia/bannerrutagrastronomica.webp"
             srcset="img/food/gastronomia/bannerrutagrastronomica.webp 576w,
-            img/food/gastronomia/bannerrutagrastronomica.webp 768w"
+            img/food/gastronomia/tapas.webp 1200w"
             alt="imagen restaurant"
-          />
+          /> -->
+
+          <picture>
+            <source media="(max-width:576px)" srcset="img/food/gastronomia/small/banner-thumb.webp">
+            <source media="(min-width:576.9px)" srcset="img/food/gastronomia/bannerrutagrastronomica.webp">
+            <img class="img-fluid" src="img/food/gastronomia/bannerrutagrastronomica.webp" alt="#">
+          </picture>
+
         </div>
       </header>
 
@@ -202,6 +208,7 @@
         <!-- first card -->
         <section class="col-9 col-md-3 col-lg-3">
           <div class="card shadow-lg card-clr-primary">
+
             <img
               src="img/food/gastronomia/tapas.webp"
               srcset="img/food/gastronomia/tapas.webp 576w,
@@ -209,6 +216,12 @@
               class="card-img-top img-fluid"
               alt="image card queso"
             />
+
+            <!-- <picture>
+              <source media="(max-width:576px)" srcset="img/food/gastronomia/tapas-1.webp">
+              <source media="(min-width:576.9px)" srcset="img/food/gastronomia/tapas.webp">
+              <img class="img-fluid" src="img/food/gastronomia/tapas.webp" alt="#">
+            </picture> -->
 
             <div class="card-body text-center">
               <h4 class="card-title text--primary">Tapas </h4>
@@ -254,6 +267,8 @@
               alt="image card viñedo"
             />
 
+    
+
             <div class="card-body text-center">
               <h4 class="card-title text--primary">Sala de Degustación</h4>
 
@@ -293,7 +308,7 @@
               img/food/gastronomia/restaurantes.webp 768w"
               class="card-img-top img-fluid"
               alt="image card vino"
-            />
+            />    
 
             <div class="card-body text-center">
               <h4 class="card-title text--primary">Restaurants</h4>
