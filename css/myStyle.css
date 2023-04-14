@@ -66,7 +66,7 @@
 
 .body-margin-index {
   margin-top: 7rem;
-
+}
 
 .bg-index-primary{
   background: var(--index-clr-primary);
@@ -79,4 +79,8 @@
 .bg-index-tertiary{
   background: var( --index-clr-tertiary);
 
+}
+
+.text{
+  width: clamp( 50ch, 50vw, 100ch);
 }
