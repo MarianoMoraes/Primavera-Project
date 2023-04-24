@@ -2,6 +2,3 @@ User-agent: *
 Allow:/
 Sitemap:https://foodandfit.netlify.app/sitemap.xml
 
-
-User-agent:*
-Disallow: /img/
