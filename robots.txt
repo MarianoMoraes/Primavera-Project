@@ -1,6 +1,6 @@
 User-agent: *
 Allow:/
-Sitmap:https://foodandfit.netlify.app/sitemap.xml
+Sitemap:https://foodandfit.netlify.app/sitemap.xml
 
 
 User-agent:*
